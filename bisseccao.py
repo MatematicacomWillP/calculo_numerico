@@ -39,7 +39,7 @@ for i in range(0,k+1):
     else:
         a=X_m
     
-
+#== CRIANDO A TABELA ==#
 df = pd.DataFrame(data={'ITERAÇÃO':k1,'a':a1,'b':b1,'X_m':x1,'f(a)':fa,'f(b)':fb,'f(X_m)':fxm,'ERRO':err2})
 print((df.to_string(index=False)))
 print('A RAÍZ PARA A EQUAÇÃO',y1,'É APROX. x= ', round(X_m,2))
